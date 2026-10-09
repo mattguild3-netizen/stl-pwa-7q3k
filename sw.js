@@ -3,7 +3,7 @@
 // "Reload" on the "New version available" banner (or every tab of the app is closed).
 // Only same-origin app files are handled here. Map tiles are fetched cross-origin and cached by the app itself in
 // IndexedDB (map.js), so this worker never touches them. User data lives in localStorage, never in this cache.
-const VERSION = "429b810901ad";
+const VERSION = "77ea5f76e3ff";
 const SHELL = ["./", "index.html", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png"];
 const CACHE = "seatime-shell-" + VERSION;
 
